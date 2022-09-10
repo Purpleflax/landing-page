@@ -1,3 +1,8 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .topper {
     background-color: #1F2937;
 }
@@ -32,7 +37,7 @@
     width: auto;
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 5%;
 }
@@ -40,6 +45,7 @@
 .toptext {
     width: 40%;
     height: 80%;
+    margin-left: 7.5%;
 }
 
 .placeholder {
@@ -49,6 +55,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-right: 7.5%;
 }
 
 .toptitle {
@@ -73,8 +80,75 @@ button {
     border-radius: 5px;
     border: 0;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .placeholdertext {
     color: white;
+}
+
+.imagearray {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex: 1;
+}
+
+.imageone {
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+}
+
+.imagetwo {
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+}
+
+.imagethree {
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+}
+
+.imagefour {
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+}
+
+.textone {
+    width: 150px;
+}
+
+.texttwo {
+    width: 150px;
+}
+
+.textthree {
+    width: 150px;
+}
+
+.textfour {
+    width: 150px;
+}
+
+.textarray {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.middleone {
+    height: 480px;
+    width: auto;
 }
