@@ -149,6 +149,34 @@ button {
 }
 
 .middleone {
-    height: 480px;
+    height: 360px;
     width: auto;
+}
+
+.middletwo {
+    height: 360px;
+    width: auto;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.quoted {
+    color: black;
+    font-weight: 1000;
+    margin-left: 70%;
+    font-size: 24px;
 }
